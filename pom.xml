@@ -38,4 +38,14 @@
     <maven.compiler.source>6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
+   <distributionManagement>
+    <repository>
+      <id>releaseRepo</id>
+      <url>http://192.168.33.10:8081/repository/releaseRepo/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshotRepo</id>
+      <url>http://192.168.33.10:8081/repository/snapshotRepo/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
